@@ -48,6 +48,7 @@ body {
 }
 
 .logo img {
+    transition: 0.60s;
     margin: 0 35px;
 }
 
@@ -111,17 +112,27 @@ body {
 }
 
 .main a {
+    transition: 0.25s;
     font-size: 14px;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
 }
 
+.menu a {
+    padding: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #39930d;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
 .menu a:hover {
     padding-left: 40px;
     color: #fff;
     font-style: italic;
-    background-color: #343434;
+    background-color: #39930d;
     text-decoration: none;
 }
 
