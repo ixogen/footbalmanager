@@ -51,7 +51,12 @@ body {
     margin: 0 35px;
 }
 
+.logo img:hover {
+    padding-left: 300px
+}
+
 .contacts a {
+    display: block;
     margin-bottom: 8px;
 }
 
@@ -77,12 +82,6 @@ body {
 
 .menu {
     width: 300px;
-}
-
-li:hover {
-    transform: none;
-    scale: 1.2;
-    background-color: #fd8300;
 }
 
 .main p {
@@ -116,6 +115,14 @@ li:hover {
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
+}
+
+.menu a:hover {
+    padding-left: 40px;
+    color: #fff;
+    font-style: italic;
+    background-color: #343434;
+    text-decoration: none;
 }
 
 .footer {
