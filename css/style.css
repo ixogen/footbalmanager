@@ -120,11 +120,10 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
-    cursor: url(../img/cursor.png), auto;
+    cursor: url(../img/cursor-ball.png), auto;
 }
 
 .menu a {
-    padding: 8px;
     font-size: 14px;
     line-height: 14px;
     color: #39930d;
@@ -133,6 +132,7 @@ body {
 }
 
 .menu a:hover {
+    padding: 5px;
     color: #fff;
     font-style: italic;
     background-color: #39930d;
